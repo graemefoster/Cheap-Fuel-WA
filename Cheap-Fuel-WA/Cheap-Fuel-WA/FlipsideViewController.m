@@ -10,11 +10,13 @@
 
 
 @implementation FlipsideViewController
+@synthesize settingsTable = _settingsTable;
 
 @synthesize delegate=_delegate;
 
 - (void)dealloc
 {
+    [_settingsTable release];
     [super dealloc];
 }
 
@@ -36,6 +38,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSettingsTable:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -46,6 +49,37 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return @"Defaults";
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 2;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0)
+    {
+    UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"TEST"];   
+    
+    cell.textLabel.text = @"Home";
+    cell.detailTextLabel.text = @"Carlisle";
+    
+        return [cell autorelease];
+    }
+    
+    UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"TEST"];   
+    
+    cell.textLabel.text = @"Fuel";
+    cell.detailTextLabel.text = @"Unleaded";
+    
+    return [cell autorelease];
+}
+
 
 #pragma mark - Actions
 
