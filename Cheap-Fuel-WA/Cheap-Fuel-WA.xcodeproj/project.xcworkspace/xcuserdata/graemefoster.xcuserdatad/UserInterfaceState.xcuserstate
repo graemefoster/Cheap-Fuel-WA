@@ -307,8 +307,8 @@
 		<string>PrimaryDocumentTimestamp</string>
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>{0, 0}</string>
-		<real>321545132.26686502</real>
-		<string>{448, 830}</string>
+		<real>321545165.67757797</real>
+		<string>{6113, 953}</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1267,9 +1267,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>321545132.26668203</real>
+		<real>321545165.67738998</real>
 		<string>{731, 1283}</string>
-		<string>{1343, 0}</string>
+		<string>{1210, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4769,10 +4769,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>321545132.26747</real>
+		<real>321545165.67817098</real>
 		<string>{731, 1283}</string>
-		<string>{1343, 0}</string>
-		<string>@implementation FlipsideViewController</string>
+		<string>{1210, 0}</string>
+		<string>-tableView:titleForHeaderInSection:</string>
 		<dict>
 			<key>$class</key>
 			<dict>
