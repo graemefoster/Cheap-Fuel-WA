@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37752AD1132A5AFD002248F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD0132A5AFD002248F4 /* UIKit.framework */; };
+		37752AD3132A5AFD002248F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD2132A5AFD002248F4 /* Foundation.framework */; };
+		37752AD5132A5AFD002248F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD4132A5AFD002248F4 /* CoreGraphics.framework */; };
+		37752AD7132A5AFD002248F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD6132A5AFD002248F4 /* CoreData.framework */; };
+		37752ADD132A5AFD002248F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37752ADB132A5AFD002248F4 /* InfoPlist.strings */; };
+		37752AE0132A5AFD002248F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37752ADF132A5AFD002248F4 /* main.m */; };
+		37752AE3132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37752AE2132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.m */; };
+		37752AE6132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37752AE4132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodeld */; };
+		37752AE9132A5AFD002248F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37752AE7132A5AFD002248F4 /* MainWindow.xib */; };
+		37752AEC132A5AFD002248F4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37752AEB132A5AFD002248F4 /* MainViewController.m */; };
+		37752AEE132A5AFD002248F4 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37752AED132A5AFD002248F4 /* MainView.xib */; };
+		37752AF1132A5AFD002248F4 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37752AF0132A5AFD002248F4 /* FlipsideViewController.m */; };
+		37752AF3132A5AFE002248F4 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37752AF2132A5AFD002248F4 /* FlipsideView.xib */; };
+		37752AFA132A5AFE002248F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD0132A5AFD002248F4 /* UIKit.framework */; };
+		37752AFB132A5AFE002248F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD2132A5AFD002248F4 /* Foundation.framework */; };
+		37752AFC132A5AFE002248F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD4132A5AFD002248F4 /* CoreGraphics.framework */; };
+		37752AFD132A5AFE002248F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37752AD6132A5AFD002248F4 /* CoreData.framework */; };
+		37752B05132A5AFE002248F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37752B03132A5AFE002248F4 /* InfoPlist.strings */; };
+		37752B08132A5AFE002248F4 /* Cheap_Fuel_WATests.h in Resources */ = {isa = PBXBuildFile; fileRef = 37752B07132A5AFE002248F4 /* Cheap_Fuel_WATests.h */; };
+		37752B0A132A5AFE002248F4 /* Cheap_Fuel_WATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37752B09132A5AFE002248F4 /* Cheap_Fuel_WATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37752AFE132A5AFE002248F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37752AC3132A5AFD002248F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37752ACB132A5AFD002248F4;
+			remoteInfo = "Cheap-Fuel-WA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37752ACC132A5AFD002248F4 /* Cheap-Fuel-WA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheap-Fuel-WA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37752AD0132A5AFD002248F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37752AD2132A5AFD002248F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37752AD4132A5AFD002248F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37752AD6132A5AFD002248F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37752ADA132A5AFD002248F4 /* Cheap-Fuel-WA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cheap-Fuel-WA-Info.plist"; sourceTree = "<group>"; };
+		37752ADC132A5AFD002248F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37752ADE132A5AFD002248F4 /* Cheap-Fuel-WA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cheap-Fuel-WA-Prefix.pch"; sourceTree = "<group>"; };
+		37752ADF132A5AFD002248F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37752AE1132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheap_Fuel_WAAppDelegate.h; sourceTree = "<group>"; };
+		37752AE2132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheap_Fuel_WAAppDelegate.m; sourceTree = "<group>"; };
+		37752AE5132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheap_Fuel_WA.xcdatamodel; sourceTree = "<group>"; };
+		37752AE8132A5AFD002248F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		37752AEA132A5AFD002248F4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		37752AEB132A5AFD002248F4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		37752AED132A5AFD002248F4 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		37752AEF132A5AFD002248F4 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		37752AF0132A5AFD002248F4 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		37752AF2132A5AFD002248F4 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		37752AF9132A5AFE002248F4 /* Cheap-Fuel-WATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheap-Fuel-WATests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37752B02132A5AFE002248F4 /* Cheap-Fuel-WATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cheap-Fuel-WATests-Info.plist"; sourceTree = "<group>"; };
+		37752B04132A5AFE002248F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37752B06132A5AFE002248F4 /* Cheap-Fuel-WATests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cheap-Fuel-WATests-Prefix.pch"; sourceTree = "<group>"; };
+		37752B07132A5AFE002248F4 /* Cheap_Fuel_WATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheap_Fuel_WATests.h; sourceTree = "<group>"; };
+		37752B09132A5AFE002248F4 /* Cheap_Fuel_WATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheap_Fuel_WATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37752AC9132A5AFD002248F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752AD1132A5AFD002248F4 /* UIKit.framework in Frameworks */,
+				37752AD3132A5AFD002248F4 /* Foundation.framework in Frameworks */,
+				37752AD5132A5AFD002248F4 /* CoreGraphics.framework in Frameworks */,
+				37752AD7132A5AFD002248F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37752AF5132A5AFE002248F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752AFA132A5AFE002248F4 /* UIKit.framework in Frameworks */,
+				37752AFB132A5AFE002248F4 /* Foundation.framework in Frameworks */,
+				37752AFC132A5AFE002248F4 /* CoreGraphics.framework in Frameworks */,
+				37752AFD132A5AFE002248F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37752AC1132A5AFD002248F4 = {
+			isa = PBXGroup;
+			children = (
+				37752AD8132A5AFD002248F4 /* Cheap-Fuel-WA */,
+				37752B00132A5AFE002248F4 /* Cheap-Fuel-WATests */,
+				37752ACF132A5AFD002248F4 /* Frameworks */,
+				37752ACD132A5AFD002248F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37752ACD132A5AFD002248F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37752ACC132A5AFD002248F4 /* Cheap-Fuel-WA.app */,
+				37752AF9132A5AFE002248F4 /* Cheap-Fuel-WATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37752ACF132A5AFD002248F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37752AD0132A5AFD002248F4 /* UIKit.framework */,
+				37752AD2132A5AFD002248F4 /* Foundation.framework */,
+				37752AD4132A5AFD002248F4 /* CoreGraphics.framework */,
+				37752AD6132A5AFD002248F4 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37752AD8132A5AFD002248F4 /* Cheap-Fuel-WA */ = {
+			isa = PBXGroup;
+			children = (
+				37752AE1132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.h */,
+				37752AE2132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.m */,
+				37752AE7132A5AFD002248F4 /* MainWindow.xib */,
+				37752AEA132A5AFD002248F4 /* MainViewController.h */,
+				37752AEB132A5AFD002248F4 /* MainViewController.m */,
+				37752AED132A5AFD002248F4 /* MainView.xib */,
+				37752AEF132A5AFD002248F4 /* FlipsideViewController.h */,
+				37752AF0132A5AFD002248F4 /* FlipsideViewController.m */,
+				37752AF2132A5AFD002248F4 /* FlipsideView.xib */,
+				37752AE4132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodeld */,
+				37752AD9132A5AFD002248F4 /* Supporting Files */,
+			);
+			path = "Cheap-Fuel-WA";
+			sourceTree = "<group>";
+		};
+		37752AD9132A5AFD002248F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37752ADA132A5AFD002248F4 /* Cheap-Fuel-WA-Info.plist */,
+				37752ADB132A5AFD002248F4 /* InfoPlist.strings */,
+				37752ADE132A5AFD002248F4 /* Cheap-Fuel-WA-Prefix.pch */,
+				37752ADF132A5AFD002248F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37752B00132A5AFE002248F4 /* Cheap-Fuel-WATests */ = {
+			isa = PBXGroup;
+			children = (
+				37752B07132A5AFE002248F4 /* Cheap_Fuel_WATests.h */,
+				37752B09132A5AFE002248F4 /* Cheap_Fuel_WATests.m */,
+				37752B01132A5AFE002248F4 /* Supporting Files */,
+			);
+			path = "Cheap-Fuel-WATests";
+			sourceTree = "<group>";
+		};
+		37752B01132A5AFE002248F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37752B02132A5AFE002248F4 /* Cheap-Fuel-WATests-Info.plist */,
+				37752B03132A5AFE002248F4 /* InfoPlist.strings */,
+				37752B06132A5AFE002248F4 /* Cheap-Fuel-WATests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37752ACB132A5AFD002248F4 /* Cheap-Fuel-WA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37752B0D132A5AFE002248F4 /* Build configuration list for PBXNativeTarget "Cheap-Fuel-WA" */;
+			buildPhases = (
+				37752AC8132A5AFD002248F4 /* Sources */,
+				37752AC9132A5AFD002248F4 /* Frameworks */,
+				37752ACA132A5AFD002248F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheap-Fuel-WA";
+			productName = "Cheap-Fuel-WA";
+			productReference = 37752ACC132A5AFD002248F4 /* Cheap-Fuel-WA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37752AF8132A5AFE002248F4 /* Cheap-Fuel-WATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37752B10132A5AFE002248F4 /* Build configuration list for PBXNativeTarget "Cheap-Fuel-WATests" */;
+			buildPhases = (
+				37752AF4132A5AFE002248F4 /* Sources */,
+				37752AF5132A5AFE002248F4 /* Frameworks */,
+				37752AF6132A5AFE002248F4 /* Resources */,
+				37752AF7132A5AFE002248F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37752AFF132A5AFE002248F4 /* PBXTargetDependency */,
+			);
+			name = "Cheap-Fuel-WATests";
+			productName = "Cheap-Fuel-WATests";
+			productReference = 37752AF9132A5AFE002248F4 /* Cheap-Fuel-WATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37752AC3132A5AFD002248F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = GraemeCorp;
+			};
+			buildConfigurationList = 37752AC6132A5AFD002248F4 /* Build configuration list for PBXProject "Cheap-Fuel-WA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37752AC1132A5AFD002248F4;
+			productRefGroup = 37752ACD132A5AFD002248F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37752ACB132A5AFD002248F4 /* Cheap-Fuel-WA */,
+				37752AF8132A5AFE002248F4 /* Cheap-Fuel-WATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37752ACA132A5AFD002248F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752ADD132A5AFD002248F4 /* InfoPlist.strings in Resources */,
+				37752AE9132A5AFD002248F4 /* MainWindow.xib in Resources */,
+				37752AEE132A5AFD002248F4 /* MainView.xib in Resources */,
+				37752AF3132A5AFE002248F4 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37752AF6132A5AFE002248F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752B05132A5AFE002248F4 /* InfoPlist.strings in Resources */,
+				37752B08132A5AFE002248F4 /* Cheap_Fuel_WATests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37752AF7132A5AFE002248F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37752AC8132A5AFD002248F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752AE0132A5AFD002248F4 /* main.m in Sources */,
+				37752AE3132A5AFD002248F4 /* Cheap_Fuel_WAAppDelegate.m in Sources */,
+				37752AE6132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodeld in Sources */,
+				37752AEC132A5AFD002248F4 /* MainViewController.m in Sources */,
+				37752AF1132A5AFD002248F4 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37752AF4132A5AFE002248F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37752B0A132A5AFE002248F4 /* Cheap_Fuel_WATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37752AFF132A5AFE002248F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37752ACB132A5AFD002248F4 /* Cheap-Fuel-WA */;
+			targetProxy = 37752AFE132A5AFE002248F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37752ADB132A5AFD002248F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37752ADC132A5AFD002248F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37752AE7132A5AFD002248F4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37752AE8132A5AFD002248F4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		37752B03132A5AFE002248F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37752B04132A5AFE002248F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37752B0B132A5AFE002248F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37752B0C132A5AFE002248F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		37752B0E132A5AFE002248F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheap-Fuel-WA/Cheap-Fuel-WA-Prefix.pch";
+				INFOPLIST_FILE = "Cheap-Fuel-WA/Cheap-Fuel-WA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37752B0F132A5AFE002248F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheap-Fuel-WA/Cheap-Fuel-WA-Prefix.pch";
+				INFOPLIST_FILE = "Cheap-Fuel-WA/Cheap-Fuel-WA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37752B11132A5AFE002248F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cheap-Fuel-WA.app/Cheap-Fuel-WA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheap-Fuel-WATests/Cheap-Fuel-WATests-Prefix.pch";
+				INFOPLIST_FILE = "Cheap-Fuel-WATests/Cheap-Fuel-WATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37752B12132A5AFE002248F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cheap-Fuel-WA.app/Cheap-Fuel-WA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cheap-Fuel-WATests/Cheap-Fuel-WATests-Prefix.pch";
+				INFOPLIST_FILE = "Cheap-Fuel-WATests/Cheap-Fuel-WATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37752AC6132A5AFD002248F4 /* Build configuration list for PBXProject "Cheap-Fuel-WA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37752B0B132A5AFE002248F4 /* Debug */,
+				37752B0C132A5AFE002248F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37752B0D132A5AFE002248F4 /* Build configuration list for PBXNativeTarget "Cheap-Fuel-WA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37752B0E132A5AFE002248F4 /* Debug */,
+				37752B0F132A5AFE002248F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37752B10132A5AFE002248F4 /* Build configuration list for PBXNativeTarget "Cheap-Fuel-WATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37752B11132A5AFE002248F4 /* Debug */,
+				37752B12132A5AFE002248F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37752AE4132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37752AE5132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodel */,
+			);
+			currentVersion = 37752AE5132A5AFD002248F4 /* Cheap_Fuel_WA.xcdatamodel */;
+			path = Cheap_Fuel_WA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37752AC3132A5AFD002248F4 /* Project object */;
+}

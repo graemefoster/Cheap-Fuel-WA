@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Cheap-Fuel-WATests' target in the 'Cheap-Fuel-WATests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
